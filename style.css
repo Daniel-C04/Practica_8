@@ -46,7 +46,7 @@ figure img {
     margin-bottom: 2rem;
 }
 
-.contenedor .section-titulo h2 {
+.contenedor .section-titulo h1 {
     color: hsl(0, 0%, 100%);
     margin-bottom: 1rem;
     font-size: 2.6rem;
@@ -72,30 +72,31 @@ figure img {
     flex-direction: column;
 }
 
-.section-botones button {
-    border-radius: 1rem;
+
+.section-botones a {
     height: 4.5rem;
     margin: 0.5rem 0;
+    border-radius: 1rem;
+
     background-color: hsl(0, 0%, 20%);
-    border: none;
+
 }
 
 .section-botones button:hover{
     background-color: hsl(75, 94%, 57%);
     cursor: pointer;
-    
+    color:  hsl(0, 0%, 12%);
 }
-.section-botones button a{
+.section-botones button{
     color: white;
     text-decoration: none;
     font-weight: 400;
+    height: 4.5rem;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: hsl(0, 0%, 20%);
+    border: none;
 }
-.section-botones button:hover a{
-    color:  hsl(0, 0%, 12%);
-}
-
-
-
 
 footer{
     margin-top: 2rem;
